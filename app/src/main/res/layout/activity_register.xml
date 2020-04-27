@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/Register_activity_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="Enter Email"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/Register_activity_password"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Register_activity_email"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Register_activity_password"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Create Account"
+        android:id="@+id/Register_activity_button"
+        />
+</RelativeLayout>
+
+
+</ScrollView>

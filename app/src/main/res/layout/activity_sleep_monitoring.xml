@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SleepMonitoringActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:src="@drawable/sleep"
+            android:layout_marginTop="60dp"
+            android:id="@+id/sleep_image"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter your sleeping hours"
+            android:id="@+id/enter_sleeping_hours"
+            android:layout_below="@id/sleep_image"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:textColor="#ffffff"
+            android:background="#34526f"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Check sleep"
+            android:id="@+id/check_sleep"
+            android:layout_below="@+id/enter_sleeping_hours"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/show_tip"
+            android:visibility="gone"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/check_sleep"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textFontWeight="800"
+            android:textColor="#34526f"
+            />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

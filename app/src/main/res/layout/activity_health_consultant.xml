@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthConsultantActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/docter_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Name : Mr. John Doe"
+            android:id="@+id/name"
+            android:layout_below="@+id/docter_img"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textFontWeight="800"
+            android:textColor="#34526f"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Phone No. : 976061XXXX"
+            android:layout_below="@+id/name"
+            android:id="@+id/phoneno."
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textFontWeight="600"
+            android:textColor="#34526f"
+            />
+        <TextView
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Clinic Address : Freinds colony, guru Road, city-XXXX"
+            android:layout_below="@+id/phoneno."
+            android:id="@+id/address"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textFontWeight="600"
+            android:textColor="#34526f"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Clinic Timing : 9:00 AM - 5:00 PM"
+            android:layout_below="@+id/address"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textFontWeight="600"
+            android:textColor="#34526f"
+            />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "416703464631",
+    "firebase_url": "https://diet-monitor-fa1ca.firebaseio.com",
+    "project_id": "diet-monitor-fa1ca",
+    "storage_bucket": "diet-monitor-fa1ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416703464631:android:3ae1592b1d2acee5b3f932",
+        "android_client_info": {
+          "package_name": "com.example.dietmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416703464631-a3nj6v44qqd9fradrsb4mlp5ajpko833.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dietmonitoring",
+            "certificate_hash": "bccf2154bc1b348d0992465fd3741fb04eca5431"
+          }
+        },
+        {
+          "client_id": "416703464631-3ua05rvtbco9dchnomjb23fd3vf9uv8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqcsIAq0HUaktWEeXEHssiSEzdSYoLdU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416703464631-3ua05rvtbco9dchnomjb23fd3vf9uv8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

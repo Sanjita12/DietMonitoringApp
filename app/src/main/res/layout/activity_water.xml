@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WaterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:src="@drawable/water"
+            android:layout_marginTop="60dp"
+            android:id="@+id/water_image"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter today's water intake in glasses"
+            android:id="@+id/enter_glasses"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/water_image"
+            />
+        <Button
+            android:textColor="#ffffff"
+            android:background="#34526f"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Check water intake"
+            android:id="@+id/check_intake"
+            android:layout_below="@+id/enter_glasses"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/show_tip"
+            android:visibility="gone"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/check_intake"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textFontWeight="800"
+            android:textColor="#34526f"
+            />
+    </RelativeLayout>
+
+</ScrollView>
